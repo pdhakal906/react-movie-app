@@ -15,7 +15,7 @@ const CategoryDetails = () => {
   }
 
   return (
-    <div className='grid grid-cols-4 gap-5 p-5'
+    <div className='sm:grid-cols-1 grid grid-cols-4 gap-5 p-5'
     >
       {data.meals.map((meals) => {
         return (

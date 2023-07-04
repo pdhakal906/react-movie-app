@@ -43,14 +43,14 @@ const MealDetails = () => {
 
   return (
     <div>
-      <div className='grid grid-cols-2'>
+      <div className='sm:grid-cols-1 grid grid-cols-2'>
         <div className='h-[350px] w-[400px] mt-5 p-5'>
           <h1 className='text-[20px] mb-5'>{data.meals[0].strMeal}</h1>
           <img className='h-[250px] mb-1' src={data.meals[0].strMealThumb} alt="" />
           {/* <h1>{tags[0]} {tags[1]}</h1> */}
         </div>
 
-        <div className='grid grid-cols-2 gap-30 mt-24'>
+        <div className='grid grid-cols-2 gap-30 mt-24 p-5'>
           <div>
             <h1>Ingridents:</h1>
 

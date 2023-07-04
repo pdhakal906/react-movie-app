@@ -15,7 +15,7 @@ const MealPage = () => {
   }
 
   return (
-    <div className='grid grid-cols-4 gap-5 p-5'>
+    <div className='sm:grid-cols-2 grid grid-cols-4 gap-5 p-5'>
       {data.categories.map((meals) => {
         return (
           <div onClick={() => nav(`/mealscategorydetails/${meals.strCategory}`)} key={meals.idCategory} className='shadow-2xl p-5 space-y-5'>
