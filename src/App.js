@@ -9,6 +9,7 @@ import PageMovie from "./pages/PageMovie"
 import MealPage from "./pages/MealPage/MealPage"
 import CategoryDetails from "./pages/MealPage/CategoryDetails"
 import MealDetails from "./pages/MealPage/MealDetails"
+import NotFound from "./components/NotFound"
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/meal" element={<MealPage />} />
           <Route path="/mealscategorydetails/:category" element={<CategoryDetails />} />
           <Route path="/mealdetails/:id" element={<MealDetails />} />
+          <Route path="*" element={<NotFound />} />
 
 
 

@@ -54,7 +54,7 @@ const Header = () => {
         <form onSubmit={formik.handleSubmit}>
           <div className='grid grid-cols-2 gap-3'>
             <input
-              className='w-[120px] bg-black border border-white p-1'
+              className='w-[120px] bg-black border border-white p-1 rounded-md'
               type='search'
               color='white'
               name='query'
@@ -64,7 +64,7 @@ const Header = () => {
 
             />
 
-            <Button type='submit' className='w-[80px]'>Search</Button>
+            <Button type='submit' className='w-[80px] p-1'>Search</Button>
 
 
           </div>
